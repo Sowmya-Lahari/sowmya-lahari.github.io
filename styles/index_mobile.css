@@ -1,0 +1,227 @@
+#bd{
+    /*background-image: url("bggrad.jpeg");*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*color:white;*/
+    color:black;
+    font-family: 'Stick No Bills', sans-serif;
+    border: black;
+    background-color: rgb(250, 239, 246);
+}
+.navbar{
+    box-shadow: 0 8px 8px 0 rgba(230, 230, 230, 0.2), 0 20px 20px 0 rgba(255, 255, 255, 0.19);
+    border-radius: 2px;
+    width:100%;
+    top:0%;
+    left:0%;
+    display: flex;
+    list-style: none;
+    position:fixed;
+    float:left;
+    margin:0%;
+    overflow: hidden;
+    background-color: rgb(46, 46, 46);
+    color:white;
+}
+.nav {
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    width: 100px;
+    text-align: center;
+    margin:0%;
+    font-size: 20px;
+}
+.name{
+    font-weight: bold;
+    font-size: 35px;
+    font-family: 'Stick No Bills', sans-serif;
+    position: fixed;
+    top: 80px;
+    width: 100%;
+    text-align: center;
+}
+#content{
+    margin-top: 150px;
+    display:block;
+    margin-left: 15px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+#inhome{
+    display: flex;  
+}
+#intro{
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify;
+    text-justify: inter-word;
+    list-style: disc;
+    width: 100%;
+}
+#pic{
+    height: 300px;
+    width: 248px;
+    border-radius: 50px;
+    animation-duration: 2s;
+    animation-name: centoleft;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+    margin: 0px;
+    margin-right: 30px;
+}
+@keyframes centoleft{
+    from{
+        margin-left: 50%;}
+    to{
+        margin-left:0%;}
+}
+#edu{
+    display: none;
+}
+#iiit{
+    display:flex;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify;
+    text-justify: inter-word;
+    list-style: disc;
+    width: 100%;
+}
+.iiit_img{
+    margin-right: 20px;
+    border-radius: 5px;
+}
+#jntuv{
+    display:flex;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify;
+    text-justify: inter-word;
+    list-style: disc;
+    width: 100%;
+}
+.jntuv_img{
+    height:159;
+    width:218;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+#tcs{
+    display:flex;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify;
+    text-justify: inter-word;
+    list-style: disc;
+    width: 100%;
+}
+#tcs_img{
+    height:159;
+    width:218;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+#about{
+    display: none;
+}
+#proj{
+    display: none;
+}
+#vnp{
+    display:flex;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify;
+    text-justify: inter-word;
+    list-style: disc;
+    width: 100%;
+}
+.vnp_img{
+    height:159;
+    width:218;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+#web{
+    display:flex;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify;
+    text-justify: inter-word;
+    list-style: disc;
+    width: 100%;
+}
+.web_img{
+    height:159;
+    width:218;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+#con{
+    display: none;
+}
+#incon{
+    margin-top: 150px;
+    display: flex;
+    width: 100%;
+}
+#cont{
+    width:100%;
+}
+#headrow{
+    margin-top: 150px;
+    height:100px;
+    padding-bottom: 50px;
+    text-align: center;
+    vertical-align: middle;
+}
+tr{
+    height:100px;
+}
+td{
+    width:33.3%;
+    left:50%;
+    text-align: center;
+    vertical-align: middle;
+}
+#conimg1{
+    height:100px;
+    width:100px;
+    border-radius: 5px;
+}
+#conimg2{
+    height:100px;
+    width:100px;
+    border-radius: 5px;
+}
+#conimg3{
+    height:100px;
+    width:100px;
+    border-radius: 5px;
+}
+.links  {
+    font-size: 20px;
+}
+.foot{
+    padding: 10px;
+    height: 20px;
+    width: 100%;
+    bottom: 0;
+    right: 0;
+    position: fixed;
+    text-align: center;
+    color:rgb(3, 3, 3);
+    box-shadow: 0 8px 8px 0 rgba(230, 230, 230, 0.2), 0 20px 20px 0 rgba(255, 255, 255, 0.19);
+    font-weight: bold;
+    border-radius: 20px;
+}
+.cal{
+    height: 20px;
+    width: 20px;
+}
+.clk{
+    height: 20px;
+    width: 20px;
+}

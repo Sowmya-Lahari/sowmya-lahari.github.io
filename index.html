@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>Profile Page</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="styles/index_mobile.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    </head> 
+    <body id="bd">
+        <ul class="navbar">
+                <li class="nav" id="hm" onclick="show(0)" >HOME </li>
+                <li class="nav" id="ed" onclick="show(2)" >EDUCATION </li>
+                <li class="nav" id="ab" onclick="show(1)" >EXPERIENCE </li>
+                <li class="nav" id="pr" onclick="show(3)" >PROJECTS </li>
+                <li class="nav" id="cn" onclick="show(4)" >CONTACT </li>
+        </ul>
+        <div class="name">SOWMYA LAHARI VAJRALA</div>
+        <div id="content">
+            <div id="home" >
+                <div id="inhome">
+                    <img src="https://drive.google.com/uc?export=view&id=1U2YOD4276zN6jJVGkY8Dn6z9mZRkOmsd" id="pic" alt="My image">
+                    <ul id="intro">
+                        Hi, I'm Sowmya Lahari Vajrala from Vijayawada, Andhra Pradesh. I am currently pursuing Masters in Computer Science and Information Security at
+                        IIIT Hyderabad. I am interested in music, gardening, cooking and photography.
+                        <br><br>
+                        Below are my skills:
+                        <br>
+                        <li>Programming Languages: C, C++, Python</li>
+                        <li>Web Development: HTML, CSS, JavaScript</li>
+                        <li>Databases: Oracle SQL, PL/SQL</li>
+                        <li>Others: Azure fundamentals</li>
+                        <br>
+                        Click <a href="https://drive.google.com/uc?export=view&id=1VtkluCShBflt5QA-dt9kOEc4sd4M50x7">this link</a> to view my Resume.
+                    </ul>
+                </div>
+            </div>
+            <div id="edu">
+                <div id="iiit">
+                    <img class="iiit_img" src="images/iiith.jpeg" alt='IIIT Hyderabad Image'>
+                    <p> I am pursuing MTech (2021-2023) in Computer Science and Information Security Department 
+                        at International Institute of Information Technology, Hyderabad. IIIT Hyderabad is located in Gachibowli and was established in 1998.
+                        To know more about IIIT Hyderabad click on <a href="https://www.iiit.ac.in/">this link</a>.
+                    </p>
+                </div>
+                <br><br>
+                <div id="jntuv">
+                    <p> I have completed BTech (2015-2019) in Computer Science and Engineering Department 
+                        at Jawaharlal Nehru Technological University University College of Engineering Vizianagram. It is located in Vizianagaram, andhra Pradesh and
+                        was established in 2007. To know more about JNTU Vizianagaram click on <a href="https://jntukucev.ac.in/">this link</a>.
+                    </p>
+                    <img class="jntuv_img" src="images/jntuv.jpeg" alt="JNTU Vizianagaram Image">
+                </div>
+            </div>
+            <div id="about">
+                <h2> Company: Tata Consultancy Services</h3>
+                <div id="tcs">
+                    <img id="tcs_img" src="https://drive.google.com/uc?export=view&id=1HoM8dcLJqxN4qCbRm0454_I3HbwRQm2y" alt="TCS Image">
+                    <p> I have worked in Tata Consultancy Services for 2 years from May 2019 to August 2021. I have started my journey in TCS as an Assistant System Engineering
+                        and was an System Engineer before my resignation. I have worked in Retail and Manufacturing Vertical at TCS.
+                    </p>
+                </div>
+                <h3> Project Details </h3>
+                <p id="tcs">
+                    I have worked with Blue Yonder’s (formerly JDA software) Demand Planning, Inventory Optimization and Enterprise Supply Planning modules. 
+                    Blue Yonder is the world leader in digital supply chain and omni-channel commerce fulfillment. As a part of the project
+                    I have developed integrations between SAP and Blue Yonder using Blue Yonder Connect and I also have experience in identifying and resolving product and business related functional and technical issues.
+                </p>
+            </div>
+            <div id="proj">
+                <div id="vnp">
+                    <img class="vnp_img" src="images/vnp.jpeg" alt='Vehicle Number Plate Recognition Image'>
+                    <p> <strong>Automatic Number Plate Recognition (ANPR)</strong> is the ability to automatically recognize the symbols
+                        contained in the number plates of a motor vehicle when read from an image provided by video surveillance cameras for the purposes of further processing by a security system.
+                        <br>
+                        First the number plate is augmented from the image using connected component analysis. The individual characters from the number plate are also segmented using connected component analysis. A convolutional neural network is trained and is used to recognize the characters. 
+                    </p> 
+                </div>
+                <br><br>
+                <div id="web">
+                    <p> <strong>Web scraping </strong>is an automatic method to obtain large amounts of data from websites. 
+                        Most of this data is unstructured data in an HTML format which is then converted into structured data in a spreadsheet or a database so that it can be used in various applications.
+                        <br>
+                        I have built a web scraper using BeautifulSoup library in python to scrape job portals like naukri and indeed. The webscraper extracts the data for the given role/skill at a given location and displays it.
+                    </p>
+                    <img class="web_img" src="images/web.png" alt="Web Scraping Image">
+                </div>
+            </div>
+            <div id="con">
+                <div id="incon">
+                    <table id="cont">
+                        <tr id="headrow">
+                          <th colspan="3">CONTACT ME</th>
+                        </tr>
+                        <br><br><br>
+                        <tr>
+                          <td><img id="conimg1" src="images/mail.png" alt="Mail Image"></td>
+                          <td><img id="conimg2" src="images/lin.jpeg" alt="Linked In Image"></td>
+                          <td><img id="conimg3" src="https://drive.google.com/uc?export=view&id=1NtPIiFlpxDMo49EYbhS09W4mrBJmdOU-" alt="Github Image"></td>
+                        </tr>
+                        <br>
+                        <tr>
+                          <td><a class="links" href="https://mail.google.com/mail/u/1/?view=cm&fs=1&to=sowmyalahari.vajrala@gmail.com&tf=1">sowmyalahari.vajrala@gmail.com</a></td>
+                          <td><a class="links" href="https://www.linkedin.com/in/sowmya-lahari-vajrala/">sowmya-lahari-vajrala</a></td>
+                          <td><a class="links" href="https://github.com/Sowmya-Lahari?tab=repositories/">Sowmya-Lahari</a></td>
+                        </tr>
+                      </table>
+                </div>
+            </div>
+        </div>
+        <div class="foot">
+            <img class="cal" src="images/cal.jpeg"></img>
+            <span id="date"></span>
+            <img class="clk" src="images/clk.png"></img>
+            <span id="tm"></span>
+        </div>
+    </body>
+    <script src="scripts/index_script.js"></script>
+</html>
