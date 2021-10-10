@@ -1,4 +1,4 @@
-# sowmya_lahari.github.io
+URL: https://sowmya-lahari.github.io
 
 I have developed the personal profile page using HTML, CSS and Javscript
 I have used CSS Animations to move the profile photo
